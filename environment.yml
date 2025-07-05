@@ -1,0 +1,23 @@
+name: idd-mad
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - xarray
+  - jupyter
+  - ipykernel
+  - r-base=4.3
+  - r-essentials
+  - r-tidyverse
+  - r-rmarkdown
+  - r-knitr
+  - r-devtools
+  - r-renv
+  - pip
+  - pip:
+    - shiny
+    - poetry

@@ -1,0 +1,20 @@
+name: idd-mad-binder
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - xarray
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - r-base=4.3
+  - r-essentials
+  - r-tidyverse
+  - r-irkernel
+  - pip
+  - pip:
+    - shiny
